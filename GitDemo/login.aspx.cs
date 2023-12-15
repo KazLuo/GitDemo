@@ -12,7 +12,7 @@ namespace GitDemo
         {
             if (TextBoxAccount.Text == "Leader" && TextBoxPassowrd.Text == "123456")
             {
-                Response.Redirect("https://www.google.com");
+                Response.Redirect("Home");
             }
             else
             {
